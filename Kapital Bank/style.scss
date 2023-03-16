@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .content1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .nav a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    .nav button{
+        color: #EF3E54;
+        margin-left: 20px;
+        border: 1px solid #EF3E54;
+        
+        border-radius: 5px ;
+    }
+    .nav button i{
+        padding: 5px 5px;
+        // background-color: #fff;
+    }
+    .nav a i{
+        color: #EF3E54;
+    }
+}
+.first{
+    background-color: #E8ECF1;
+    .all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .left{
+        a{
+                margin-right: 20px;
+                text-decoration: none;
+                color: black;
+        }
+    }
+    .right{
+        a{
+            text-decoration: none;
+            // border: 1px solid #EF3E54;
+            background-color: #F45369;
+            color: #fff;
+            padding: 6px 15px;
+            border-radius: 9px;
+            display: inline-block;
+
+            &:hover{
+                background-color: #EF3E42;
+            }
+        }
+        
+    }
+}
+.second{
+    margin-top: 3px;
+    background-color: #E8ECF1;
+    .cash{
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+    .center{
+        margin-top: 30px;
+    }
+    .center a{
+        background-color: #F45369;
+        text-decoration: none;
+        color: #fff;
+        padding: 12px 80px;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 5px;
+
+        &:hover{
+            background-color: #EF3E42;
+        }
+    }
+    .image{
+        img{
+            width: 100%;
+        }
+    }
+}
+.third{
+    .order{
+        background-color: #F9FAFB;
+        padding: 25px;
+        margin-top: -50px;
+        border-radius: 10px;
+    }
+    .box{
+        text-align: center;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 1px 1px 7px 0px;
+    }
+    .box p{
+        margin-top: 15px;
+    }
+    .box img{
+        width: 20%;
+    }
+    .padd{
+        padding: 15px 10px;
+    }
+}
